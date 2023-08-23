@@ -19,8 +19,18 @@ Expo credentials if necessary:
 username: mariamJo	
 password: uolStudent123
 
-Database can be accessed using the following command from /db directory under server 
-sqlite3 bujjit.db
 
 Youtube link to video (Public and tested out in Incognito mode): 
 https://www.youtube.com/watch?v=6PzwIQuhe-4
+
+Github as an alternative means of obtaining files (public repository):
+https://github.com/cozie11/bujjit.git
+
+
+Backend funcitonality is managed via Express server and Node.js, both this and the database (sqlite3 database) are found in the server directory.
+
+Database can be accessed using the following command from /db directory:
+sqlite3 bujjit.db
+
+Express server can be started from server directory using the following command: 
+node app.js
